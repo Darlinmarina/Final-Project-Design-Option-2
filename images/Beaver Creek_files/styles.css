@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+li { 
+    margin-left: 30px;
+    margin-right: 30px;
+}

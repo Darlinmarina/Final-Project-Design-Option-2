@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Beaver Creek</title>
+        <meta name="author" content="Marina Jarvis">
+        <meta name="description" content="Welcome to Beaver Creek! Beaver Creek Resort is a premier Colorado ski destination offering great skiing, a charming village atmosphere, fine dining, stunning views, and relaxing scenery.">
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header id="top">
+             <h1> <a class="header-company-name" href="index.html">Beaver Creek</a></h1>
+            <nav>
+                <ul class="nav-list">
+                    <li id="nav-home"><a href="index.html">Home</a></li>
+                    <li id="nav-accommodations"><a href="#accommodations">Accommodations</a></li>
+                    <li id="nav-contact"><a href="#contact-jump">Contact</a></li>
+                </ul>
+             </nav>
+        </header>
+
+        <img id="hero-image" src="./images/swiss-valley.jpg" alt="" height="560" width="1440">
+
+        <div class="contact-content">
+            <h2 id="contact-jump">Contact Us</h2>
+    
+            <p id="intro-text">
+                Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+            </p>
+            <img id="contact-image" src="./images/swiss-sunset.jpg" alt="" height="270" width="710">
+            
+            <div>
+                <form action="https://wp.zybooks.com/form-viewer.php">
+                    <div class="form-flex-container-1">
+                        <label for="fname">Full Name</label>
+                        <input required type="text" id="fname" name="fname">
+                    
+                        <label for="email">Email Address</label>
+                        <input required type="text" id="email" name="email">
+                    
+                        <label for="phonenumber">Phone Number</label>
+                        <input required type="text" id="phonenumber" name="phonenumber">
+                    </div>
+
+                    <div>
+                        <fieldset>
+                            <legend>Preferred contact method:</legend>
+                        
+                            <div>
+                                <input class="contact-radio" type="radio" id="radio-email" name="contact" value="email"  checked>
+                                <label for="radio-email">Email</label>
+                            </div>
+                        
+                            <div>
+                                <input class="contact-radio" type="radio" id="radio-phone" name="contact" value="phone">
+                                <label for="radio-phone">Phone</label>
+                            </div>
+                        </fieldset>
+                            
+                        <div class="flex-textarea">
+                            <label for="comments">Comments</label>
+                            <textarea required id="comments" name="comments" placeholder="Write something.."></textarea>
+                        </div>
+                    
+                        <input id="submit-button" type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <p id="footer-text1">Copyright ©2023 - Beaver Creek</p>
+            <p id="footer-text2">This site is for educational purposes only</p>
+        </footer>
+
+    </body>
+</html>
+
